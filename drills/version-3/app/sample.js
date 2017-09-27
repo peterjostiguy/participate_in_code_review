@@ -6,10 +6,10 @@ const Joi = require('joi');
 router.post('/add', (req, res, next) => {
     Joi.validate(
         {
-            first_name: req.body.first_name,
-            last_name: req.body.last_name,
-            bio: req.body.bio,
-            portrait: req.body.portrait
+          first_name: req.body.first_name,
+          last_name: req.body.last_name,
+          bio: req.body.bio,
+          portrait: req.body.portrait
         },
         schema,
         (err, value) => {
@@ -18,10 +18,10 @@ router.post('/add', (req, res, next) => {
             }else if(!err){
                 pg('authors').insert(
                     {
-                        first_name: req.body.first_name,
-                        last_name: req.body.last_name,
-                        bio: req.body.bio,
-                        portrait: req.body.portrait
+                      first_name: req.body.first_name,
+                      last_name: req.body.last_name,
+                      bio: req.body.bio,
+                      portrait: req.body.portrait
                     }
                 )
                 .then(() => {
@@ -30,10 +30,10 @@ router.post('/add', (req, res, next) => {
                     books.forEach(book => {
                         pg('books').insert(
                             {
-                                title: book,
-                                genre: '',
-                                description: `Please enter a description for ${book}`,
-                                cover: 'https://unhabitat.org/wp-content/plugins/mybooktable/images/book-placeholder.jpg'
+                              title: book,
+                              genre: '',
+                              description: `Please enter a description for ${book}`,
+                              cover: 'https://unhabitat.org/wp-content/plugins/mybooktable/images/book-placeholder.jpg'
                             }
                         )
                         .then(() => {

@@ -1,4 +1,4 @@
-Passing requires all values
+Passing requires thoughtful comments that address 4/5 of the issues below
 
 ## Comments should address
 
@@ -6,6 +6,7 @@ Passing requires all values
 * [ ] Inconsistent Semi-colons throughout
 * [ ] Pyramid of doom (.thens should be on the same indentation)
 * [ ] Remove console.log
+* [ ] Inconsistent unnecessary object tabbing
 
 ## Style
 
