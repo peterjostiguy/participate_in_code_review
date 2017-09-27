@@ -1,12 +1,12 @@
-# Example 1
+# Practice Example
 
 Examine the code in sample.js and provide feedback and provide positive, thorough feedback.
 
 - Do a quick overview of the sample code
 - Go back and look for style issues
-- ##### As you find errors, insert a comment in the code using "//" notation. If you find an error repeated, you can reference previous comments
+- #### As you find errors, insert a comment in the code using "//" notation. If you find an error repeated, you can reference previous comments
 - Go back through the code and look for syntax issues, leaving comments as you go
-- ##### When you're finished reviewing, submit a pull request to the original repo  
+- #### When you're finished reviewing, submit a pull request to the original repo  
 
 Notes:
 - You don't have to make the changes to the code! Just provide constructive feedback, the developer will incorporate your changes after review.
