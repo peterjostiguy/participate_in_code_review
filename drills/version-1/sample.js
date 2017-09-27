@@ -1,3 +1,5 @@
+// Reviewed by Brooks on 9/27/17
+
 $(document).ready(function () {
    pM()
    $('.addItemtoOrder').hover(
