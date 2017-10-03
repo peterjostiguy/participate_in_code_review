@@ -26,6 +26,8 @@ Feedback should be:
 
 Things to look for:
 
+- Use https://standardjs.com/ as a reference
+
 - No console logs in production code
 - Consistent indentation
 - Descriptive Variable/Function names

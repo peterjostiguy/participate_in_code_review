@@ -11,9 +11,11 @@ Examine the code in sample.js and provide feedback and provide positive, thoroug
 - When you've completed your comment, click "start review" the first time, then "add review comment" each time after that.
 - Go back through the code and look for syntax issues, leaving comments as you go
 - When you're finished reviewing, go to the upper right hand of the review pane and click the green "Review Changes"
-- Select "Comment" then "Submit Review" 
+- Select "Comment" then "Submit Review"
 
 Notes:
+- Use https://standardjs.com/ as a reference
+
 - You don't have to make the changes to the code! Just provide constructive feedback, the developer will incorporate your changes after review.
 
 - The provided code samples are snippets and not necessarily complete- don't worry about things like missing "requires" or functions being called that aren't defined.
